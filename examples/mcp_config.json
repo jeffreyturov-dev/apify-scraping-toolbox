@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "apify": {
+      "url": "https://mcp.apify.com",
+      "headers": {
+        "Authorization": "Bearer <YOUR_APIFY_TOKEN>"
+      }
+    }
+  }
+}

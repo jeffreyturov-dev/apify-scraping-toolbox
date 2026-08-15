@@ -1,0 +1,54 @@
+{
+  "title": "Maps to Stack — Google Maps leads into GitHub via MCP connector",
+  "description": "Scrape Google Maps and write results to GitHub via MCP connector.",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "query": {
+      "title": "Search query",
+      "type": "string",
+      "description": "Google Maps search, e.g. 'restaurants Esch-sur-Alzette'",
+      "editor": "textfield",
+      "prefill": "restaurants Esch-sur-Alzette"
+    },
+    "maxResults": {
+      "title": "Max results",
+      "type": "integer",
+      "description": "How many businesses to scrape. Keep small (3-5) for tests — Playwright + residential proxy is billed per compute unit.",
+      "editor": "number",
+      "default": 5,
+      "minimum": 1,
+      "maximum": 50
+    },
+    "githubConnector": {
+      "title": "GitHub connector",
+      "description": "MCP connector to your GitHub account. Authorize it once in Apify Console → Settings → Integrations. The Actor only sees a connector ID.",
+      "type": "string",
+      "resourceType": "mcpConnector",
+      "mcpServers": [
+        { "url": "*", "tools": { "required": ["create_*", "push_*", "update_*", "write_*", "commit_*", "get_*"], "readOnly": false } }
+      ]
+    },
+    "repo": {
+      "title": "Repository",
+      "type": "string",
+      "description": "owner/repo to write into. The repository must already exist.",
+      "editor": "textfield",
+      "prefill": "jeffreyturov-dev/apify-scraping-toolbox"
+    },
+    "path": {
+      "title": "File path",
+      "type": "string",
+      "description": "Path of the JSON file to create or update in the repository",
+      "editor": "textfield",
+      "prefill": "leads/esch-restaurants.json"
+    },
+    "proxyConfiguration": {
+      "title": "Proxy configuration",
+      "type": "object",
+      "description": "A residential proxy is required — Google Maps blocks datacenter IPs.",
+      "editor": "proxy"
+    }
+  },
+  "required": ["query", "githubConnector"]
+}

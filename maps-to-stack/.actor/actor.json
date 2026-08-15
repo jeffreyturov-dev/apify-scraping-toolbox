@@ -1,0 +1,15 @@
+{
+  "actorSpecification": 1,
+  "name": "maps-to-stack",
+  "title": "Maps to Stack — Google Maps leads into GitHub via MCP connector",
+  "description": "Scrape businesses from Google Maps and write the results straight into your GitHub repository using an MCP connector. Your GitHub credentials stay in Apify's connector — the Actor code never sees them.",
+  "version": "1.0",
+  "buildTag": "latest",
+  "input": "./INPUT_SCHEMA.json",
+  "dockerfile": "./Dockerfile",
+  "readme": "./README.md",
+  "defaultRunOptions": {
+    "timeoutSecs": 900,
+    "memoryMbytes": 4096
+  }
+}

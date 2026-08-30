@@ -1,0 +1,40 @@
+{
+  "query": "restaurants Esch-sur-Alzette",
+  "scrapedAt": "2026-08-30T21:28:10.730952+00:00",
+  "count": 3,
+  "businesses": [
+    {
+      "name": "Restaurant Postkutsch",
+      "rating": 4.8,
+      "category": "Restaurant gastronomique",
+      "address": "8 Rue Xavier Brasseur, 4040 Esch-sur-Alzette, Luxembourg",
+      "phone": "+352 54 51 69",
+      "website": null,
+      "latitude": 49.49302,
+      "longitude": 5.979906,
+      "mapsUrl": "https://www.google.com/maps/place/Restaurant+Postkutsch/@49.49302,5.979906,17z/data=!3m1!4b1!4m6!3m5!1s0x479534e3d6211181:0xb48f4e875ebe135a!8m2!3d49.49302!4d5.979906!16s%2Fg%2F1q671n3bf?authuser=0&hl=fr&entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "name": "La Maison Lefevre",
+      "rating": 4.6,
+      "category": "Restaurant",
+      "address": "138 Bd John Fitzgerald Kennedy, 4171 Esch-sur-Alzette, Luxembourg",
+      "phone": "+352 26 53 05 04",
+      "website": "lamaisonlefevre.lu",
+      "latitude": 49.4908333,
+      "longitude": 5.9805556,
+      "mapsUrl": "https://www.google.com/maps/place/La+Maison+Lefevre/@49.4908333,5.9805556,17z/data=!3m1!4b1!4m6!3m5!1s0x479534e409b9b8fb:0x3835efea56187b79!8m2!3d49.4908333!4d5.9805556!16s%2Fg%2F1yhbjt21_?authuser=0&hl=fr&entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "name": "Avant d'accéder à Google",
+      "rating": null,
+      "category": null,
+      "address": null,
+      "phone": null,
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "mapsUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Brasserie%2BK116/data%3D!4m7!3m6!1s0x4795351acf6f4765:0x650ce2ea8c37d594!8m2!3d49.5036363!4d5.9880793!16s%252Fg%252F1v2kwcgz!19sChIJZUdvzxo1lUcRlNU3jOriDGU?authuser%3D0%26hl%3Dfr%26g_ep%3DEgoyMDI2MDgyNi4wIJJjKgBIAVAD%26rclk%3D1&gl=GB&m=0&pc=m&uxe=eomtm&cm=2&hl=fr&src=1"
+    }
+  ]
+}

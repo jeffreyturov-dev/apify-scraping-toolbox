@@ -1,0 +1,18 @@
+{
+  "query": "boulangerie Esch-sur-Alzette",
+  "scrapedAt": "2026-09-01T21:23:30.657627+00:00",
+  "count": 1,
+  "businesses": [
+    {
+      "name": "Bof-Pires",
+      "rating": 4.7,
+      "category": "Boulangerie",
+      "address": "8 Rue de Belvaux, 4025 Esch-sur-Alzette, Luxembourg",
+      "phone": "+352 55 60 16",
+      "website": null,
+      "latitude": 49.5006338,
+      "longitude": 5.9767617,
+      "mapsUrl": "https://www.google.com/maps/place/Bof-Pires/@49.5006338,5.9767617,17z/data=!3m1!4b1!4m6!3m5!1s0x4795351f4652e6f9:0xe8a09ba31f26127e!8m2!3d49.5006338!4d5.9767617!16s%2Fg%2F1thn4fws?authuser=0&hl=fr&entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D"
+    }
+  ]
+}

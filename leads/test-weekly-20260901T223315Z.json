@@ -1,0 +1,18 @@
+{
+  "query": "boulangerie Esch-sur-Alzette",
+  "scrapedAt": "2026-09-01T22:33:12.560668+00:00",
+  "count": 1,
+  "businesses": [
+    {
+      "name": "Avant d'accéder à Google",
+      "rating": null,
+      "category": null,
+      "address": null,
+      "phone": null,
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "mapsUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Bof-Pires/data%3D!4m7!3m6!1s0x4795351f4652e6f9:0xe8a09ba31f26127e!8m2!3d49.5006338!4d5.9767617!16s%252Fg%252F1thn4fws!19sChIJ-eZSRh81lUcRfhImH6OboOg?authuser%3D0%26hl%3Dfr%26g_ep%3DEgoyMDI2MDgzMC4wIJJjKgBIAVAD%26rclk%3D1&gl=IT&m=0&pc=m&uxe=eomtm&cm=2&hl=fr&src=1"
+    }
+  ]
+}

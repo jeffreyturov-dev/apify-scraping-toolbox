@@ -1,0 +1,40 @@
+{
+  "query": "restaurants Esch-sur-Alzette",
+  "scrapedAt": "2026-09-03T21:41:03.272800+00:00",
+  "count": 3,
+  "businesses": [
+    {
+      "name": "Avant d'accéder à Google",
+      "rating": null,
+      "category": null,
+      "address": null,
+      "phone": null,
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "mapsUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Restaurant%2BPostkutsch/data%3D!4m7!3m6!1s0x479534e3d6211181:0xb48f4e875ebe135a!8m2!3d49.49302!4d5.979906!16s%252Fg%252F1q671n3bf!19sChIJgREh1uM0lUcRWhO-XodOj7Q?authuser%3D0%26hl%3Dfr%26g_ep%3DEgoyMDI2MDkwMi4wIJJjKgBIAVAD%26rclk%3D1&gl=GB&m=0&pc=m&uxe=eomtm&cm=2&hl=fr&src=1"
+    },
+    {
+      "name": "Avant d'accéder à Google",
+      "rating": null,
+      "category": null,
+      "address": null,
+      "phone": null,
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "mapsUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/La%2BMaison%2BLefevre/data%3D!4m7!3m6!1s0x479534e409b9b8fb:0x3835efea56187b79!8m2!3d49.4908333!4d5.9805556!16s%252Fg%252F1yhbjt21_!19sChIJ-7i5CeQ0lUcReXsYVurvNTg?authuser%3D0%26hl%3Dfr%26g_ep%3DEgoyMDI2MDkwMi4wIJJjKgBIAVAD%26rclk%3D1&gl=GB&m=0&pc=m&uxe=eomtm&cm=2&hl=fr&src=1"
+    },
+    {
+      "name": "Avant d'accéder à Google",
+      "rating": null,
+      "category": null,
+      "address": null,
+      "phone": null,
+      "website": null,
+      "latitude": null,
+      "longitude": null,
+      "mapsUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Brasserie%2BK116/data%3D!4m7!3m6!1s0x4795351acf6f4765:0x650ce2ea8c37d594!8m2!3d49.5036363!4d5.9880793!16s%252Fg%252F1v2kwcgz!19sChIJZUdvzxo1lUcRlNU3jOriDGU?authuser%3D0%26hl%3Dfr%26g_ep%3DEgoyMDI2MDkwMi4wIJJjKgBIAVAD%26rclk%3D1&gl=GB&m=0&pc=m&uxe=eomtm&cm=2&hl=fr&src=1"
+    }
+  ]
+}

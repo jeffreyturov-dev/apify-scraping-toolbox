@@ -1,0 +1,18 @@
+# Smithery.ai connector config — Apify Scraping Toolbox
+# 11 pay-per-event data actors reachable through the hosted Apify MCP server.
+startCommand:
+  type: "http"
+  url: "https://mcp.apify.com"
+  configSchema:
+    type: "object"
+    required:
+      - apifyToken
+    properties:
+      apifyToken:
+        type: "string"
+        title: "Apify API Token"
+        description: "Token from console.apify.com Settings > Integrations (free plan works)."
+  headers:
+    Authorization: "Bearer ${apifyToken}"
+  exampleConfig:
+    apifyToken: "apify_api_xxxxxxxxxxxxxxxx"

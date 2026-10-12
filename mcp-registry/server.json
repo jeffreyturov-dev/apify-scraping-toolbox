@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "lu.adagasolutions/apify-scraping-toolbox",
+  "description": "12 pay-per-event data APIs for agents: AI-presence audit, Maps, social, RAG. x402-ready.",
+  "title": "Apify Scraping Toolbox — Agent-Ready Data APIs",
+  "version": "1.1.0",
+  "websiteUrl": "https://github.com/jeffreyturov-dev/apify-scraping-toolbox",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://adagasolutions.lu/mcp"
+    }
+  ]
+}

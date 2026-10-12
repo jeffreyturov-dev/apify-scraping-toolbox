@@ -1,8 +1,9 @@
 # Smithery.ai connector config — Apify Scraping Toolbox
-# 11 pay-per-event data actors reachable through the hosted Apify MCP server.
+# 12 pay-per-event data actors reachable through the branded Adaga solutions
+# MCP facade (thin pass-through to the Apify API, your token, your billing).
 startCommand:
   type: "http"
-  url: "https://mcp.apify.com"
+  url: "https://adagasolutions.lu/mcp"
   configSchema:
     type: "object"
     required:

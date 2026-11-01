@@ -1,0 +1,30 @@
+{
+  "summary": {
+    "run_at": "2026-11-01T20:44:59.095164+00:00",
+    "apis_checked": 1,
+    "apis_failed": 0,
+    "events_total": 1,
+    "by_class": {
+      "baseline": 1
+    },
+    "critical": [],
+    "dry_run": false
+  },
+  "events": [
+    {
+      "api": "github",
+      "owner": "",
+      "detected_at": "2026-11-01T20:44:59.095164+00:00",
+      "change_class": "baseline",
+      "severity": "info",
+      "title": "Baseline recorded for github — future runs will diff against this spec version.",
+      "path": "",
+      "method": "",
+      "evidence_url": "https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json",
+      "source_type": "openapi",
+      "detector": "baseline",
+      "summary": "First run for this API. Breaking-change detection starts on the next spec change.",
+      "recommended_action": "None — baseline stored."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "query": [
+    "restaurant Esch-sur-Alzette"
+  ],
+  "count": 1,
+  "businesses": [
+    {
+      "name": "Restaurant Auberge Gourmande",
+      "rating": 4.9,
+      "reviewCount": 77,
+      "category": null,
+      "address": "145 Rue de Luxembourg, 4221 Esch-sur-Alzette, Luxembourg",
+      "phone": "+352 27 40 02 60",
+      "website": "auberge-gourmande.lu",
+      "openingHours": null,
+      "priceLevel": null,
+      "latitude": 49.5043003,
+      "longitude": 5.98744,
+      "placeId": "0x4795353a1ed100c3:0",
+      "url": "https://www.google.com/maps/place/Restaurant+Auberge+Gourmande/@49.5043003,5.98744,17z/data=!3m1!4b1!4m9!3m8!1s0x4795353a1ed100c3:0x6608da33bb6541a9!5m2!4m1!1i2!8m2!3d49.5043003!4d5.98744!16s%2Fg%2F11yk_n7qqb?authuser=0&hl=fr&entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+      "scrapedAt": "2026-11-01T20:45:39.795717",
+      "searchQuery": "restaurant Esch-sur-Alzette"
+    }
+  ]
+}

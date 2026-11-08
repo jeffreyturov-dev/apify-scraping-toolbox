@@ -4,7 +4,7 @@ Guidance for AI coding agents working in this repository.
 
 ## What this repo is
 
-Documentation + examples for 13 production data APIs published on the Apify Store
+Documentation + examples for 15 production data APIs published on the Apify Store
 (https://apify.com/travelmonitorlab). The actor source code is NOT in this repo —
 this is the discovery/integration surface. All actors are pay-per-event and x402-ready.
 

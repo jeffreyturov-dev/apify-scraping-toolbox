@@ -2,6 +2,8 @@
 
 **Tags:** apify, webscraping, mcp, ai, leadgeneration
 
+> Historical launch article. The catalog has since grown to 15 Actors and launch prices have changed. For current prices, 19 public tasks and verified run proofs, use [README.md](README.md) and the [live API catalog](https://adagasolutions.lu/apis/).
+
 ---
 
 A few weeks ago I published a set of Actors on Apify Store. Today they're all **AI-agent ready**: any LLM agent (Claude, GPT, Cursor, LangChain, n8n) can discover and call them through the Apify MCP server — no custom integration code needed.

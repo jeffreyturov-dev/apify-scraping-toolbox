@@ -30,7 +30,7 @@ Prices below are the current FREE-tier event prices verified through the Apify A
 
 Google Maps uses a datacenter proxy by default to control cost; residential proxy is opt-in when needed. Proxy and platform usage are separate from Actor events.
 
-## 19 ready-to-run public tasks
+## 28 ready-to-run public tasks
 
 Each link opens a published Apify task with prefilled input. Technical dry-runs are identified as such; they must not be confused with a real commercial or AI-visibility result.
 
@@ -55,8 +55,19 @@ Each link opens a published Apify task with prefilled input. Technical dry-runs 
 | Monitor restaurant reputation | [Review and AI-readiness changes](https://apify.com/travelmonitorlab/local-ai-presence-monitor/examples/restaurant-reputation-ai-change-monitor) |
 | Compare a local competitor | [Restaurant competitor benchmark](https://apify.com/travelmonitorlab/local-ai-presence-monitor/examples/restaurant-competitor-benchmark) |
 | Test the Brand Tracker integration | [Technical dry-run preview](https://apify.com/travelmonitorlab/ai-brand-visibility-tracker/examples/preview-ai-brand-visibility-measurement) |
+| Measure hotel-domain citations | [Yasha Hotel AI citations](https://apify.com/travelmonitorlab/ai-brand-visibility-tracker/examples/yasha-hotel-official-domain-ai-citations) |
+| Compare three Luxembourg hotels | [Three-hotel AI-presence comparison](https://apify.com/travelmonitorlab/local-ai-presence-monitor/examples/three-luxembourg-hotels-ai-presence-comparison) |
+| Triage Luxembourg City restaurant reviews | [Luxembourg City review triage](https://apify.com/travelmonitorlab/review-radar/examples/luxembourg-city-restaurant-review-triage) |
+| Build a small Lyon lead list | [Three real Lyon restaurants](https://apify.com/travelmonitorlab/google-maps-scraper/examples/lyon-restaurant-lead-list-small) |
+| Monitor Stripe OpenAPI changes | [Stripe breaking-change watch](https://apify.com/travelmonitorlab/api-breaking-change-radar/examples/stripe-openapi-breaking-change-watch) |
+| Compare diesel in Rhône and Paris | [Departments 69 and 75](https://apify.com/travelmonitorlab/hermes-revenu-api/examples/compare-diesel-prices-rhone-paris) |
+| Audit a Luxembourg hairdresser | [Bubbles Coiffure local presence audit](https://apify.com/travelmonitorlab/local-ai-presence-audit/examples/bubbles-coiffure-local-ai-presence-audit) |
+| Compare two Esch-sur-Alzette restaurants | [Local restaurant comparison](https://apify.com/travelmonitorlab/local-ai-presence-monitor/examples/restaurant-esch-local-competitor-comparison) |
+| Measure three fixed-model AI queries | [Yasha fixed-model Brand Tracker](https://apify.com/travelmonitorlab/ai-brand-visibility-tracker/examples/yasha-fixed-model-multi-query-brand-tracker) |
 
 For a real Brand Tracker result, see run `FC19rOVtCldS03ASm`: one selected OpenRouter model answered a query about Adaga solutions in 4.48 seconds. The output recorded `mentioned: true`, `cited: false`, and one model-provided citation. This is evidence for one model, prompt and date—not universal AI visibility. The public task above remains a technical dry-run and makes no visibility claim.
+
+New acceptance proofs include run `ewhxiMDy3NcDAX2Y7` for three real Lyon businesses, run `63iU7PabbEbQLw0vD` for 226 official fuel-station records limited to departments 69 and 75, and run `rTzuzBVg0h45cFz3L` for three out of three Yasha Hotel answers measured with the fixed model `recursive/flint-v1.0:free`. Public Brand tasks use technical dry-run without a provider key; their linked real runs preserve the AI-answer evidence.
 
 ## Use with AI agents (MCP)
 

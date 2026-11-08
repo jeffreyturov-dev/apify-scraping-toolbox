@@ -26,11 +26,11 @@ Prices below are the current FREE-tier event prices verified through the Apify A
 | **LinkedIn Profile Scraper** | You need public profile headlines, companies, skills and experience for B2B enrichment | $0.02/profile | [Proof](https://adagasolutions.lu/apis/linkedin-profile-scraper.html) · [Store](https://apify.com/travelmonitorlab/linkedin-profile-scraper) |
 | **RAG Web Browser** | You need clean Markdown and metadata from public pages for agents or retrieval pipelines | $0.003/page | [Proof](https://adagasolutions.lu/apis/rag-web-browser.html) · [Store](https://apify.com/travelmonitorlab/rag-web-browser) |
 | **Fuel Prices France API** 🇫🇷 | You need official French fuel prices by department, station and fuel type | $0.20/run + $0.01/batch of 1,000 stations | [Proof](https://adagasolutions.lu/apis/hermes-revenu-api.html) · [Store](https://apify.com/travelmonitorlab/hermes-revenu-api) |
-| **Hotel Rate Monitoring** | You need competitor hotel rates and parity data in structured datasets | $0.00005/run + $0.00001/item | [Proof](https://adagasolutions.lu/apis/travel-monitor-launch.html) · [Store](https://apify.com/travelmonitorlab/travel-monitor-launch) |
+| **Hotel Rate Monitoring** | You need verifiable published min/max room-rate ranges from official hotel source pages, with source URLs and content hashes | $0.00005/run + $0.00001/item | [Proof](https://adagasolutions.lu/apis/travel-monitor-launch.html) · [Store](https://apify.com/travelmonitorlab/travel-monitor-launch) |
 
 Google Maps uses a datacenter proxy by default to control cost; residential proxy is opt-in when needed. Proxy and platform usage are separate from Actor events.
 
-## 28 ready-to-run public tasks
+## 30 ready-to-run public tasks
 
 Each link opens a published Apify task with prefilled input. Technical dry-runs are identified as such; they must not be confused with a real commercial or AI-visibility result.
 
@@ -64,10 +64,14 @@ Each link opens a published Apify task with prefilled input. Technical dry-runs 
 | Audit a Luxembourg hairdresser | [Bubbles Coiffure local presence audit](https://apify.com/travelmonitorlab/local-ai-presence-audit/examples/bubbles-coiffure-local-ai-presence-audit) |
 | Compare two Esch-sur-Alzette restaurants | [Local restaurant comparison](https://apify.com/travelmonitorlab/local-ai-presence-monitor/examples/restaurant-esch-local-competitor-comparison) |
 | Measure three fixed-model AI queries | [Yasha fixed-model Brand Tracker](https://apify.com/travelmonitorlab/ai-brand-visibility-tracker/examples/yasha-fixed-model-multi-query-brand-tracker) |
+| Compare two brands across models and prompts | [Adaga solutions vs Manus Brand Tracker](https://apify.com/travelmonitorlab/ai-brand-visibility-tracker/examples/brand-p2-multi-model-competitors) |
+| Fetch two real Mersch hotel rate cards | [Mersch published hotel rates](https://apify.com/travelmonitorlab/travel-monitor-launch/examples/mersch-luxembourg-published-hotel-rates) |
 
 For a real Brand Tracker result, see run `FC19rOVtCldS03ASm`: one selected OpenRouter model answered a query about Adaga solutions in 4.48 seconds. The output recorded `mentioned: true`, `cited: false`, and one model-provided citation. This is evidence for one model, prompt and date—not universal AI visibility. The public task above remains a technical dry-run and makes no visibility claim.
 
 New acceptance proofs include run `ewhxiMDy3NcDAX2Y7` for three real Lyon businesses, run `63iU7PabbEbQLw0vD` for 226 official fuel-station records limited to departments 69 and 75, and run `rTzuzBVg0h45cFz3L` for three out of three Yasha Hotel answers measured with the fixed model `recursive/flint-v1.0:free`. Public Brand tasks use technical dry-run without a provider key; their linked real runs preserve the AI-answer evidence.
+
+Run `dk1Hi70ELwgSUp01I` adds the multi-model competitor proof: three real answers across two models, with one provider error preserved in the dataset rather than counted as a successful measurement. Run `7ObEuoyCma8msaGhq` fetched Hotel Martha and Hostellerie Val Fleuri from Visit Luxembourg in 3.686 seconds: two hotel cards, zero source errors, source URLs and HTML SHA-256 hashes. These are published min/max ranges, not live availability, date-specific quotes or pricing-parity scores.
 
 ## Use with AI agents (MCP)
 

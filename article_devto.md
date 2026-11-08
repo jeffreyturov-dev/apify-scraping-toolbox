@@ -2,7 +2,7 @@
 
 **Tags:** apify, webscraping, mcp, ai, leadgeneration
 
-> Historical launch article. The catalog has since grown to 15 Actors and launch prices have changed. For current prices, 28 public tasks and verified run proofs, use [README.md](README.md) and the [live API catalog](https://adagasolutions.lu/apis/).
+> Historical launch article. The catalog has since grown to 15 Actors and launch prices have changed. For current prices, 30 public tasks and verified run proofs, use [README.md](README.md) and the [live API catalog](https://adagasolutions.lu/apis/).
 
 ---
 

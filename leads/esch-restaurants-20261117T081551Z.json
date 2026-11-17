@@ -1,0 +1,18 @@
+{
+  "query": "restaurants Esch-sur-Alzette",
+  "scrapedAt": "2026-11-17T08:15:49.431476+00:00",
+  "count": 1,
+  "businesses": [
+    {
+      "name": "Restaurant Postkutsch",
+      "rating": 4.8,
+      "category": "Restaurant gastronomique",
+      "address": "8 Rue Xavier Brasseur, 4040 Esch-sur-Alzette, Luxembourg",
+      "phone": "+352 54 51 69",
+      "website": null,
+      "latitude": 49.49302,
+      "longitude": 5.979906,
+      "mapsUrl": "https://www.google.com/maps/place/Restaurant+Postkutsch/@49.49302,5.979906,17z/data=!3m1!4b1!4m6!3m5!1s0x479534e3d6211181:0xb48f4e875ebe135a!8m2!3d49.49302!4d5.979906!16s%2Fg%2F1q671n3bf?authuser=0&hl=fr&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D"
+    }
+  ]
+}
